@@ -1,0 +1,13 @@
+.jumbotron {
+    align-items: center;
+    background-color: blue;
+    font-size: large;
+}
+.form-control {
+    width: 50%;
+    align-items: center;
+}
+
+.display-4 {
+    font-weight: 200;
+}

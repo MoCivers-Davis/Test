@@ -1,20 +1,83 @@
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">COVID-19 FAQs</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">COVID-19 News Feed</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About US</a>
+  </li>
+</ul>
 
+<br>
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">COVID-19 Tracking App</h1>
-    <p class="lead">Your source for tracking the spread of COVID-19 by country!</p>
+<div class="first-container">
+  <div class="form-group">
+    <label for="enterCountryToSearch">Please Enter Country to Search</label>
+    <input type="country" class="form-control mr-sm-2" id="enterCountryToSearch" placeholder="country name goes here">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <br>
+  <br>
+
+</div>
+<img src="/assets/img/covid.png" alt="HTML5 Icon" width="400" height="200">
+
+<br>
+<br>
+
+<div class="card">
+  <div class="card-body">
+    <h2>Coronavirus COVID-19 Global Hot Zones</h2>
+    <ul>
+      <li>
+        <p>Country: China || COVID-19 Incidents: 81,347 || Deaths: 3,130</p>
+        <p>Country: Italy || COVID-19 Incidents: 35,461 || Deaths: 2,978</p>
+        <p>Country: United States || COVID-19 Incidents: 5,650 || Deaths: 47</p>
+      </li>
+    </ul>
   </div>
 </div>
 
-<div class="form-group">
-  <label for="enterCountryToSearch">Please Enter Country to Search</label>
-  <input type="country" class="form-control" id="enterCountryToSearch">
+<div class="card">
+  <div class="card-body">
+    <h1>COVID-19 Global FAQs</h2>
+
+    <h3>What is Coronavirus:</h3>
+    <p>Coronaviruses are a large family of viruses, some causing illness in people and others circulating
+      among animals, including camels, cats and bats. The 2019 novel coronavirus (COVID-19) is a new
+      virus that causes respiratory illness in people and can spread from person-to-person. This virus
+      was first identified during an investigation into an outbreak in Wuhan, China.</p>
+      <br>
+      <h3>What are the Symptons of COVID-19:</h3>
+        <p>Symptons of COVID-19 can include:</p>
+            <ul>
+      <li>
+        <p>Fever</p>
+        <p>Cough</p>
+        <p>Shortness of breath</p>
+      </li>
+    </ul>
+    <p>The symptoms may appear in as few as two days or as long as 14 days after exposure. Reported illnesses
+       have ranged from people with little to no symptoms to people being severely ill and dying. </p>
+      <br>
+      <h3>How does COVID-19 spread:</h3>
+        <p>Human to human transmital of COVID-19 occurs just like the flu or a cold:</p>
+            <ul>
+      <li>
+        <p>Through the air by coughing or sneezing;</p>
+        <p>Close personal contact, such as touching or shaking hands;</p>
+        <p>touching an object or surface with the virus on it;</p>
+        <p>Occasionally, fecal contamination;</p>
+      </li>
+    </ul>
+  </div>
 </div>
 
-<button type="submit" class="btn btn-primary">Submit</button>
 
-</form>
+
 {{!-- <ul>
   {{#each countries}}
   <li>
