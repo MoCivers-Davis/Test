@@ -14,7 +14,7 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// MySQL DB Connection Information (remember to change this with our specific credentials)
+//MySQL DB Connection Information (remember to change this with our specific credentials)
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
@@ -32,14 +32,17 @@ connection.connect(function(err) {
     console.log("connected as id " + connection.threadId);
   });
 
-  app.get
+  //app.get
 
 ///Set Handlebars as the default templating engine.
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
+console.log("test")
+
+
 //Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static(__dirname + "/public"));
+app.use(express.static("public"));
 
 
 
